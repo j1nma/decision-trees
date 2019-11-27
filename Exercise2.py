@@ -5,6 +5,15 @@ import subprocess
 
 from sklearn import tree  # tree must have categorical_features and absolute_error implementations
 
+# Dataset directory
+dataset_directory = "./datasets"
+
+# Create results directory
+dirName = './results'
+if not os.path.exists(dirName):
+    os.mkdir(dirName)
+    print("Directory ", dirName, " created.")
+
 # Dataset dictionaries
 golf_nominal = {"dataset_name": "PlayGolf_nominal",
                 "label_column": 'Play',
@@ -38,13 +47,13 @@ criteria = ["gini", "entropy", "absolute_error"]
 
 for dictionary in dictionaries:
     # Create results directory
-    dirName = './results-' + dictionary['dataset_name']
+    dirName = './results/' + dictionary['dataset_name']
     if not os.path.exists(dirName):
         os.mkdir(dirName)
         print("Directory ", dirName, " created.")
 
     # Read data file
-    data_file = os.getcwd() + "/" + dictionary['dataset_name'] + ".csv"
+    data_file = os.getcwd() + "/" + dataset_directory + "/" + dictionary['dataset_name'] + ".csv"
     df = pd.read_csv(data_file)
 
     # Separate label
