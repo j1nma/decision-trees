@@ -1,0 +1,19 @@
+cylinders,displacement,horse power,weight,accelleration,Model year,maker  ,MpG
+4        ,low         ,low        ,low   ,high         ,75-78     ,Asia   ,good
+6        ,medium      ,medium     ,medium,medium       ,70-74     ,America,bad
+4        ,medium      ,medium     ,medium,low          ,75-78     ,Europe ,bad
+8        ,high        ,high       ,high  ,low          ,70-74     ,America,bad
+6        ,medium      ,medium     ,medium,medium       ,70-74     ,America,bad
+4        ,low         ,medium     ,low   ,medium       ,70-74     ,Asia   ,bad
+4        ,low         ,medium     ,low   ,low          ,70-74     ,Asia   ,bad
+8        ,high        ,high       ,high  ,low          ,75-78     ,America,bad
+8        ,high        ,high       ,high  ,low          ,70-74     ,America,bad
+8        ,high        ,medium     ,high  ,high         ,79-83     ,America,good
+8        ,high        ,high       ,high  ,low          ,75-78     ,America,bad
+4        ,low         ,low        ,low   ,low          ,79-83     ,America,good
+6        ,medium      ,medium     ,medium,high         ,75-78     ,America,bad
+4        ,medium      ,low        ,low   ,low          ,79-83     ,America,good
+4        ,low         ,low        ,medium,high         ,79-83     ,America,good
+8        ,high        ,high       ,high  ,low          ,70-74     ,America,bad
+4        ,low         ,medium     ,low   ,medium       ,75-78     ,Europe ,good
+5        ,medium      ,medium     ,medium,medium       ,75-78     ,Europe ,bad
