@@ -1,0 +1,3 @@
+pandas
+numpy
+-e git+https://github.com/tcerdaITBA/scikit-learn.git#egg=0328f473eb3b1584dae071ed13b0d893cd432646
