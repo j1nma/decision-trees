@@ -30,6 +30,16 @@ export DYLD_LIBRARY_PATH=/usr/local/opt/libomp/lib
 $  pip3 install -r requirements.txt
 ```
 
+For _dot_ files install graphviz:
+
+Linux:
+```sh
+$  sudo apt-get install graphviz
+```
+
+MacOS:
+https://brewinstall.org/install-graphviz-on-mac-with-brew/
+
 ### Running
 ```sh
 $  python3 Exercise2.py
